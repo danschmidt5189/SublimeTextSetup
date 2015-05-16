@@ -3,7 +3,7 @@
 use Function::Parameters ${1:qw(${2::strict})};${0:
 }
 ]]></content>
-    <tabTrigger>fp_use</tabTrigger>
+    <tabTrigger>use_function_parameters</tabTrigger>
     <scope>source.perl</scope>
     <description>Perl - F::P - "use"</description>
 </snippet>

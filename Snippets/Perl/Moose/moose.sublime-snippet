@@ -13,7 +13,7 @@ ${4:__PACKAGE__->meta->make_immutable;}
 1;
 
 ]]></content>
-    <tabTrigger>moose</tabTrigger>
+    <tabTrigger>moose_class</tabTrigger>
     <scope>source.perl</scope>
     <description>Perl - Moose - Class</description>
 </snippet>
