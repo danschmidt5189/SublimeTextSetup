@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+package ${1:${TM_FILENAME/\.\w+$//g}};
+use Moose::Role;
+
+use v5.14;
+$0
+
+1;
+
+]]></content>
+    <tabTrigger>moose_role</tabTrigger>
+    <scope>source.perl</scope>
+    <description>Perl - Moose - Role</description>
+</snippet>

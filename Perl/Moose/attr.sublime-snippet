@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+has ${1:attr_name} => (
+    is  => '${2:ro}',
+    isa => '${3:TypeName}',
+);${0:
+
+}
+]]></content>
+    <tabTrigger>moose_attr</tabTrigger>
+    <scope>source.perl</scope>
+    <description>Perl - Moose - Attribute</description>
+</snippet>

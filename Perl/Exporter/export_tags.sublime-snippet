@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+our %EXPORT_TAGS = ($1);${0:
+}
+]]></content>
+    <tabTrigger>exporter_tags</tabTrigger>
+    <scope>source.perl</scope>
+    <description>Perl - Exporter - EXPORT_TAGS</description>
+</snippet>

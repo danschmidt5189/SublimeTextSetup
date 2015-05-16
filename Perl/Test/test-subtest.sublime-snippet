@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+subtest "${1:It does a thing}" => sub {
+    $0
+};
+]]></content>
+    <tabTrigger>test_subtest</tabTrigger>
+    <scope>source.perl</scope>
+    <description>Perl - Test - Subtest</description>
+</snippet>

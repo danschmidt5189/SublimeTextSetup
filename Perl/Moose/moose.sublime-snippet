@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+package ${1:${TM_FILENAME/\.\w+$//g}};
+use ${2:Moose};
+use namespace::autoclean;
+
+use ${3:v5.14};
+
+$0
+
+${4:__PACKAGE__->meta->make_immutable;}
+
+1;
+
+]]></content>
+    <tabTrigger>moose</tabTrigger>
+    <scope>source.perl</scope>
+    <description>Perl - Moose - Class</description>
+</snippet>

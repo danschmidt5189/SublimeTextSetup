@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+has ${1:attr_name} => (
+    is       => '${2:ro}',
+    isa      => '${3:TypeName}',
+    required => 1,
+);${0:
+
+}
+]]></content>
+    <tabTrigger>moose_attr_required</tabTrigger>
+    <scope>source.perl</scope>
+    <description>Perl - Moose - Attribute - Required</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+__PACKAGE__->meta->make_immutable;
+]]></content>
+    <tabTrigger>moose_make_immutable</tabTrigger>
+    <scope>source.perl</scope>
+    <description>Perl - Moose - Make Immutable</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+fun ${1:function_name}(${2:args}) {
+    $0
+}
+]]></content>
+    <tabTrigger>fp_function</tabTrigger>
+    <scope>source.perl</scope>
+    <description>Perl - F::P - Function</description>
+</snippet>

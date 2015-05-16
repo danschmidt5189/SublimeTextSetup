@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+our @EXPORT_OK = qw($1);${0:
+}
+]]></content>
+    <tabTrigger>exporter_ok</tabTrigger>
+    <scope>source.perl</scope>
+    <description>Perl - Exporter - EXPORT_OK</description>
+</snippet>

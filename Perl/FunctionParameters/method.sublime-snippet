@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+method ${1:method_name}(${2:args}) {
+    $0
+}
+]]></content>
+    <tabTrigger>fp_method</tabTrigger>
+    <scope>source.perl</scope>
+    <description>Perl - F::P - Method</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+use Exporter qw(import);
+]]></content>
+    <tabTrigger>exporter_use</tabTrigger>
+    <scope>source.perl</scope>
+    <description>Perl - Exporter - Use</description>
+</snippet>
